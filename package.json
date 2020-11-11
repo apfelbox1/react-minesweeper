@@ -1,0 +1,47 @@
+{
+  "name": "react-minesweeper",
+  "version": "1.0.0",
+  "description": "react.js version of the classic minesweeper game",
+  "main": "index.tsx",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack serve --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ignore-path .gitignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apfelbox1/react-minesweeper.git"
+  },
+  "author": "Christian Prior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/apfelbox1/react-minesweeper/issues"
+  },
+  "homepage": "https://github.com/apfelbox1/react-minesweeper#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.13.0",
+    "eslint-plugin-react": "^7.21.5",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "^17.0.0",
+    "@types/react": "^16.9.56",
+    "@types/react-dom": "^16.9.9",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hot-loader": "^4.13.0",
+    "ts-loader": "^8.0.11",
+    "typescript": "^4.0.5"
+  }
+}
